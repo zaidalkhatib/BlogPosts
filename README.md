@@ -1,4 +1,4 @@
-### `App describe`
+### `App describtion`
 This is a NodeJS app gives you the abilty to post your blogs. 
 
 ### `Node app.js`
