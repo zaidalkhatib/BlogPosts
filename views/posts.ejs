@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="ui segment" style="padding: 20px; margin: 30px;">
+        <h2 class="ui left floated header">
+            <%=foundPosts.title%>
+        </h2>
+        <div class="ui clearing divider"></div>
+        <p>
+            <%=foundPosts.content%>
+        </p>
+    </div>
+    <a href="/">
+        <button type="submit" class="btn btn-primary" style="padding: 10px; margin-left: 30px;">
+        Home Page
+      </button></a>
+</body>
+
+</html>
